@@ -6,8 +6,6 @@ const fadeItems = Array.from(document.querySelectorAll(".fade-in"));
 const menuToggle = document.querySelector(".menu-toggle");
 const sidebar = document.querySelector(".sidebar");
 const navScrim = document.querySelector("[data-nav-close]");
-const profileMedia = document.querySelector(".profile-media");
-const profileImage = profileMedia ? profileMedia.querySelector("img") : null;
 
 document.addEventListener("mousemove", (event) => {
   root.style.setProperty("--mouse-x", event.clientX + "px");
@@ -177,29 +175,5 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
-if (profileImage && profileMedia) {
-  const showImage = () => {
-    if (profileImage.naturalWidth > 0) {
-      profileMedia.classList.add("has-image");
-    }
-  };
-
-  const showFallback = () => {
-    profileMedia.classList.remove("has-image");
-  };
-
-  profileImage.addEventListener("load", showImage);
-  profileImage.addEventListener("error", showFallback);
-
-  if (profileImage.complete) {
-    showImage();
-  }
-}
-
-const footerYear = document.getElementById("year");
-
-if (footerYear) {
-  footerYear.textContent = new Date().getFullYear();
-}
-
 setActiveLink(getSectionTopFallback());
+document.getElementById('year').textContent = new Date().getFullYear();

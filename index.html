@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Comfort Mbewe builds compliance-ready fintech and business software for lenders and growth-focused businesses in Zambia.">
   <meta name="theme-color" content="#0a0f1e">
   <title>Comfort Mbewe | Fintech &amp; Software Developer</title>
+  <meta property="og:title" content="Comfort Mbewe — Fintech &amp; Software Developer">
+  <meta property="og:description" content="Building compliance-ready software for Zambia's lending sector. Creator of LoanTrack — the BoZ compliance management system for regulated lenders.">
+  <meta property="og:url" content="https://cm126165-ui.github.io/comfort-mbewe-portfolio/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Comfort Mbewe — Fintech &amp; Software Developer">
+  <meta name="twitter:description" content="Building compliance-ready software for Zambia's lending sector. Creator of LoanTrack.">
+  <meta name="description" content="Comfort Mbewe is a software developer based in Lusaka, Zambia specialising in fintech web applications and BoZ compliance software for Zambia's regulated lending sector.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -42,8 +49,12 @@
         <div class="sidebar-top">
           <div class="profile-block">
             <div class="profile-media">
-              <img src="assets/images/profile.jpg" alt="Comfort Mbewe">
-              <span class="profile-fallback" aria-hidden="true">CM</span>
+              <img
+                src="assets/images/profile.jpg"
+                alt="Comfort Mbewe"
+                onerror="this.style.display='none'; document.getElementById('initials-fallback').style.display='flex';"
+              >
+              <div id="initials-fallback" class="profile-initials-fallback" style="display:none;" aria-hidden="true">CM</div>
             </div>
 
             <div class="profile-copy">
@@ -181,13 +192,13 @@
         <div class="section-header fade-in">
           <p class="section-eyebrow">03. PROJECTS</p>
           <h2>Products shaped by Zambian business workflows.</h2>
-          <p class="section-intro">A selection of software I have built and shipped.</p>
+          <p class="section-intro">A selection of products I have built and the software I am actively developing.</p>
         </div>
 
         <div class="project-list">
           <article class="project-card fade-in">
             <div class="project-media">
-              <img src="assets/images/loantrack-dashboard.svg" alt="LoanTrack dashboard preview" loading="lazy">
+              <img src="assets/images/loantrack-compliance.png" alt="LoanTrack compliance dashboard preview" loading="lazy">
             </div>
 
             <div class="project-content">
@@ -216,40 +227,7 @@
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
-            </div>
-          </article>
-
-          <article class="project-card fade-in">
-            <div class="project-media">
-              <img src="assets/images/fortress-preview.svg" alt="Fortress Loans client deployment preview" loading="lazy">
-            </div>
-
-            <div class="project-content">
-              <p class="project-number">Project 02</p>
-              <h3>Fortress Loans</h3>
-              <p class="project-subtitle">Live Client Rollout for a Lending Business</p>
-              <p class="project-description">
-                A branded production rollout of the LoanTrack platform for a Zambian lender that needed a cleaner, faster daily operating system. The deployment focused on repayment tracking, collections follow-up, printable receipts, and a mobile-first workflow staff could use in the field. It shows how I adapt a core fintech product into a business-ready client implementation.
-              </p>
-
-              <div class="project-tech">
-                <span class="skill-tag">Firebase</span>
-                <span class="skill-tag">Responsive UI</span>
-                <span class="skill-tag">Vanilla JS</span>
-                <span class="skill-tag">GitHub Pages</span>
-                <span class="skill-tag">Firestore</span>
-              </div>
-
-              <div class="project-links">
-                <a href="https://fortress-loans.tech" class="project-link" target="_blank" rel="noreferrer">
-                  <span>View Project</span>
-                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <a href="https://github.com/cm126165-ui/Final" class="project-link" target="_blank" rel="noreferrer">
-                  <span>GitHub</span>
-                  <i class="fa-brands fa-github"></i>
-                </a>
-              </div>
+              <p class="project-private-note">Source is private — request access via demo inquiry</p>
             </div>
           </article>
 
@@ -259,11 +237,11 @@
             </div>
 
             <div class="project-content">
-              <p class="project-number">Project 03</p>
+              <p class="project-number">Project 02</p>
               <h3>FuelWatch Zambia</h3>
-              <p class="project-subtitle">Community Fuel Availability Tracker</p>
+              <p class="project-subtitle">Fuel Availability &amp; Station Status Platform</p>
               <p class="project-description">
-                A community-powered mobile product built to help motorists find fuel faster and help station teams share stock status in real time. The app blends maps, reporting flows, and staff tooling into one product experience built for Zambia's transport and retail reality. It extends my work into high-utility operational software with strong UX discipline and live data thinking.
+                A mobile-first product I am currently building to help motorists find fuel faster and help station teams publish live availability updates. FuelWatch is designed for Zambia's transport reality, combining map-based discovery, status reporting, and operational visibility into one practical product. It reflects my interest in solving large everyday problems with clear interfaces and real-time data.
               </p>
 
               <div class="project-tech">
@@ -278,6 +256,38 @@
                 <a href="https://github.com/cm126165-ui/fuelwatch-zambia-final" class="project-link" target="_blank" rel="noreferrer">
                   <span>GitHub</span>
                   <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <div class="project-media project-media-placeholder">
+              <div class="project-media-placeholder-copy">
+                <span>StockTrack POS</span>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <p class="project-number">Project 03</p>
+              <h3>StockTrack</h3>
+              <p class="project-subtitle">Inventory &amp; Point-of-Sale Dashboard</p>
+              <p class="project-description">
+                A local-first retail operations workspace with KPI dashboards, checkout flow, inventory control, purchase order tracking, customer management, and reporting. Built to support practical day-to-day stock and sales operations.
+              </p>
+
+              <div class="project-tech">
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Vite</span>
+                <span class="skill-tag">Recharts</span>
+                <span class="skill-tag">POS</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#contact" class="project-link">
+                  <span>Request Walkthrough</span>
+                  <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -298,6 +308,30 @@
           <p class="featured-copy">
             Built for lenders that need more than a spreadsheet and more discipline than a generic CRM can provide. LoanTrack helps teams manage borrower records, repayment operations, compliance evidence, and lender reporting from one focused operating system.
           </p>
+        </div>
+
+        <div class="product-showcase">
+          <figure class="showcase-hero fade-in">
+            <img src="assets/images/loantrack-statistics.png" alt="LoanTrack statistics dashboard showing portfolio summary, collections, outstanding exposure, and default rate" loading="lazy">
+            <figcaption>Management-ready portfolio reporting with disbursement, collections, outstanding exposure, and default tracking in one clean view.</figcaption>
+          </figure>
+
+          <div class="product-gallery">
+            <figure class="gallery-card fade-in">
+              <img src="assets/images/loantrack-performance.png" alt="LoanTrack performance charts for monthly disbursements, collections, and projected versus actual income" loading="lazy">
+              <figcaption>Performance analytics with monthly cash flow and projected-versus-actual income charts.</figcaption>
+            </figure>
+
+            <figure class="gallery-card fade-in">
+              <img src="assets/images/loantrack-readiness.png" alt="LoanTrack compliance score view showing inspection readiness and suspicious activity review" loading="lazy">
+              <figcaption>BoZ inspection readiness scoring that rolls key compliance signals into one actionable view.</figcaption>
+            </figure>
+
+            <figure class="gallery-card fade-in">
+              <img src="assets/images/loantrack-vault.png" alt="LoanTrack document vault showing compliance records tracked by required document slots" loading="lazy">
+              <figcaption>Document vault for policy records and required compliance evidence, tracked slot by slot.</figcaption>
+            </figure>
+          </div>
         </div>
 
         <div class="feature-grid">
@@ -349,6 +383,11 @@
             <a href="#contact" class="button button-primary">Request a Demo &rarr;</a>
             <a href="https://github.com/cm126165-ui/LoanTrack" class="button button-outline" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
+
+          <p class="loantrack-whatsapp-shortcut">
+            Prefer to talk directly?
+            <a href="https://wa.me/260976399133?text=Hi%20Comfort%2C%20I%27m%20interested%20in%20a%20LoanTrack%20demo" target="_blank" rel="noreferrer">Message on WhatsApp</a>
+          </p>
         </div>
       </section>
 
