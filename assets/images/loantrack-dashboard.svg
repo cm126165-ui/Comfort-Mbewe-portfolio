@@ -1,0 +1,37 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="#0B1120"/>
+  <rect x="28" y="28" width="1144" height="744" rx="28" fill="#111827" stroke="#1E293B" stroke-width="2"/>
+  <rect x="68" y="72" width="220" height="660" rx="24" fill="#0F172A"/>
+  <rect x="100" y="118" width="92" height="12" rx="6" fill="#3B82F6"/>
+  <rect x="100" y="154" width="150" height="10" rx="5" fill="#64748B"/>
+  <rect x="100" y="210" width="160" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.15"/>
+  <rect x="100" y="252" width="160" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.15"/>
+  <rect x="100" y="294" width="160" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.15"/>
+  <rect x="100" y="336" width="160" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.15"/>
+  <rect x="330" y="88" width="780" height="68" rx="22" fill="#0F172A"/>
+  <rect x="372" y="114" width="188" height="14" rx="7" fill="#E2E8F0"/>
+  <rect x="1006" y="108" width="64" height="28" rx="14" fill="#3B82F6" fill-opacity="0.2"/>
+  <rect x="330" y="192" width="240" height="150" rx="24" fill="#0F172A"/>
+  <rect x="600" y="192" width="240" height="150" rx="24" fill="#0F172A"/>
+  <rect x="870" y="192" width="240" height="150" rx="24" fill="#0F172A"/>
+  <rect x="362" y="228" width="90" height="10" rx="5" fill="#64748B"/>
+  <rect x="362" y="256" width="140" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="632" y="228" width="90" height="10" rx="5" fill="#64748B"/>
+  <rect x="632" y="256" width="126" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="902" y="228" width="90" height="10" rx="5" fill="#64748B"/>
+  <rect x="902" y="256" width="132" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="330" y="376" width="488" height="300" rx="24" fill="#0F172A"/>
+  <rect x="850" y="376" width="260" height="300" rx="24" fill="#0F172A"/>
+  <path d="M388 588C430 520 492 478 538 474C586 470 640 520 682 502C732 480 754 438 782 426" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="388" cy="588" r="10" fill="#3B82F6"/>
+  <circle cx="538" cy="474" r="10" fill="#3B82F6"/>
+  <circle cx="682" cy="502" r="10" fill="#3B82F6"/>
+  <circle cx="782" cy="426" r="10" fill="#3B82F6"/>
+  <rect x="382" y="416" width="150" height="12" rx="6" fill="#E2E8F0"/>
+  <rect x="882" y="424" width="92" height="12" rx="6" fill="#64748B"/>
+  <rect x="882" y="460" width="196" height="58" rx="18" fill="#111827" stroke="#1E293B"/>
+  <rect x="882" y="540" width="196" height="58" rx="18" fill="#111827" stroke="#1E293B"/>
+  <rect x="882" y="620" width="196" height="24" rx="12" fill="#3B82F6" fill-opacity="0.16"/>
+  <text x="382" y="118" fill="#94A3B8" font-size="28" font-family="Inter, Arial, sans-serif">LoanTrack v4.0</text>
+  <text x="382" y="706" fill="#3B82F6" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="700">Compliance dashboard and portfolio overview</text>
+</svg>
