@@ -466,6 +466,58 @@ a.button,
   background: linear-gradient(145deg, rgba(17, 24, 39, 0.8), rgba(10, 15, 30, 0.95));
 }
 
+.fuelwatch-preview-shell {
+  padding: 0.85rem;
+}
+
+.fuelwatch-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.fuelwatch-shot {
+  margin: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(59, 130, 246, 0.16);
+  background: #09111d;
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.22);
+}
+
+.fuelwatch-shot img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.fuelwatch-preview-shell .fuelwatch-shot img {
+  min-height: 0;
+}
+
+.fuelwatch-shot-hero {
+  grid-column: 1 / -1;
+  aspect-ratio: 9 / 14;
+}
+
+.fuelwatch-shot-profile {
+  aspect-ratio: 3 / 4;
+}
+
+.fuelwatch-shot-panel {
+  aspect-ratio: 3 / 4;
+}
+
+.fuelwatch-preview-grid .fuelwatch-shot:nth-child(2) {
+  transform: translateY(0.35rem);
+}
+
+.fuelwatch-preview-grid .fuelwatch-shot:nth-child(3),
+.fuelwatch-preview-grid .fuelwatch-shot:nth-child(5) {
+  transform: translateY(-0.2rem);
+}
+
 .project-media img {
   width: 100%;
   height: 100%;
@@ -1141,6 +1193,18 @@ a.button,
 
   .project-media img {
     min-height: 190px;
+  }
+
+  .fuelwatch-preview-shell {
+    padding: 0.65rem;
+  }
+
+  .fuelwatch-preview-grid {
+    gap: 0.5rem;
+  }
+
+  .fuelwatch-shot {
+    border-radius: 12px;
   }
 
   .featured-banner,
