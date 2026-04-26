@@ -828,6 +828,7 @@ a.button,
 .contact-copy {
   display: grid;
   gap: 0.15rem;
+  min-width: 0;
 }
 
 .contact-label {
@@ -837,6 +838,8 @@ a.button,
 .contact-value {
   font-size: var(--text-base);
   font-weight: 600;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .availability-badge {
