@@ -509,8 +509,8 @@ a.button,
 
 .project-card {
   display: grid;
-  grid-template-columns: minmax(0, 40%) minmax(0, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
   padding: var(--card-padding);
   background: rgba(17, 24, 39, 0.92);
   border: 1px solid var(--color-border);
@@ -613,7 +613,7 @@ a.button,
 .project-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .project-number,
